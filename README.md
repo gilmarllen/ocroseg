@@ -11,13 +11,14 @@ CUDA Version: 9.0
 GPU: TITAN X (Pascal)  
 
 ## Install Steps
+git clone https://github.com/NVlabs/dltrainers.git  
+cd dltrainers/  
+pip install .  
+
 git clone https://github.com/gilmarllen/ocroseg.git  
 cd ocroseg/  
 pip install -r requirements.txt  
-
-git clone https://github.com/NVlabs/dltrainers.git  
-cd dltrainers/  
-pip install -r requirements.txt  
+pip install .  
 
 # Segmentation
 
