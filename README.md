@@ -3,9 +3,9 @@
 
 # Installation
 ## Config
-Python Version: 2.7.12
-CUDA Version: 9.0 
-GPU: TITAN X (Pascal)
+Python Version: 2.7.12  
+CUDA Version: 9.0  
+GPU: TITAN X (Pascal)  
 
 ## Install Steps
 git clone https://github.com/gilmarllen/ocroseg.git
