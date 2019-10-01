@@ -1,5 +1,8 @@
 
-# ocroseg
+# ocroseg  
+This is a deep learning model for page layout analysis / segmentation.
+
+There are many different ways in which you can train and run it, but by default, it will simply return the text lines in a page image.
 
 # Installation
 ## Config
@@ -15,11 +18,6 @@ pip install -r requirements.txt
 git clone https://github.com/NVlabs/dltrainers.git  
 cd dltrainers/  
 pip install -r requirements.txt  
-
-
-This is a deep learning model for page layout analysis / segmentation.
-
-There are many different ways in which you can train and run it, but by default, it will simply return the text lines in a page image.
 
 # Segmentation
 
