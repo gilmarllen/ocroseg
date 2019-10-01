@@ -1,6 +1,22 @@
 
 # ocroseg
 
+# Installation
+## Config
+Python Version: 2.7.12
+CUDA Version: 9.0 
+GPU: TITAN X (Pascal)
+
+## Install Steps
+git clone https://github.com/gilmarllen/ocroseg.git
+cd ocroseg/
+pip install -r requirements.txt
+
+git clone https://github.com/NVlabs/dltrainers.git
+cd dltrainers/
+pip install -r requirements.txt
+
+
 This is a deep learning model for page layout analysis / segmentation.
 
 There are many different ways in which you can train and run it, but by default, it will simply return the text lines in a page image.
